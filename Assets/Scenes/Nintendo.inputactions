@@ -1,0 +1,52 @@
+{
+    "name": "Nintendo",
+    "maps": [
+        {
+            "name": "Gamepad",
+            "id": "582de488-3058-413c-a01d-ae86b7b44b5b",
+            "actions": [
+                {
+                    "name": "Right",
+                    "type": "Button",
+                    "id": "ec5547fd-8072-4692-91b2-6bf5450a0d08",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Left",
+                    "type": "Button",
+                    "id": "ad792243-fa9d-4d13-a3c1-9e4d35fb47c8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7fbbde39-185f-40ae-ac65-22783c7e8f58",
+                    "path": "<SwitchProControllerHID>/rightStick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5c2db289-fe65-459d-b720-6ef8182c500d",
+                    "path": "<SwitchProControllerHID>/leftStick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
